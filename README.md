@@ -91,14 +91,14 @@ For custom web, Flutter, or native mobile clients, use the Nordic UART RX Charac
 
 ---
 
-5. HOW TO INSTALL AND USE THE CONTROLLER APP
+### HOW TO INSTALL AND USE THE CONTROLLER APP
 
 1. Copy the **controller.apk** file from this repository to your Android phone.
-1. Tap the APK file on your phone to install it. (Allow "Install from Unknown Sources" if asked).
-1. Turn ON Bluetooth and Location on your mobile phone.
-1. Power ON your ESP32 RC Car.
-1. Open the installed App and connect to **"ESP32_BLE_Car"**.
-1. Use the steering wheel and gas pedal on the screen to control your car!
+2. Tap the APK file on your phone to install it. (Allow "Install from Unknown Sources" if asked).
+3. Turn ON Bluetooth and Location on your mobile phone.
+4. Power ON your ESP32 RC Car.
+5. Open the installed App and connect to **"ESP32_BLE_Car"**.
+6. Use the steering wheel and gas pedal on the screen to control your car!
 
 ---
 
