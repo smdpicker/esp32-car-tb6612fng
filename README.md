@@ -89,8 +89,6 @@ For custom web, Flutter, or native mobile clients, use the Nordic UART RX Charac
 4. Select **ESP32 Dev Module** under **Tools > Board**.
 5. Compile and flash `rc_car_firmware.ino`.
 
----
-
 ### HOW TO INSTALL AND USE THE CONTROLLER APP
 
 1. Copy the **controller.apk** file from this repository to your Android phone.
@@ -107,8 +105,8 @@ For custom web, Flutter, or native mobile clients, use the Nordic UART RX Charac
 Developed and maintained by SMDPicker (https://smdpicker.com)
 Free for educational and learning purposes!
 
----
-
-## 📄 License
+### 📄 License
 
 Distributed under the MIT License. Developed for open electronics and robotics projects by [SMDPicker](https://smdpicker.com).
+
+---
