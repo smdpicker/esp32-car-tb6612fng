@@ -16,6 +16,17 @@ Built for the **ESP32 DevKitV1** and **TB6612FNG** dual H-Bridge driver, this re
 
 ---
 
+---
+
+## REPOSITORY CONTENT
+
+---
+
+- rc_car_firmware.ino : Arduino code for the ESP32 board.
+- controller.apk : Ready-to-install Android App for controlling
+  the RC car.
+- README.txt : Project instructions and guide (this file).
+
 ## 🔌 Hardware Wiring Diagram
 
 | ESP32 Pin       | TB6612FNG Pin | Module / Function | Description             |
@@ -77,6 +88,24 @@ For custom web, Flutter, or native mobile clients, use the Nordic UART RX Charac
 3. Install **NimBLE-Arduino** via the Library Manager (v2.0.0 or higher).
 4. Select **ESP32 Dev Module** under **Tools > Board**.
 5. Compile and flash `rc_car_firmware.ino`.
+
+---
+
+5. HOW TO INSTALL AND USE THE CONTROLLER APP
+
+1. Copy the **controller.apk** file from this repository to your Android phone.
+1. Tap the APK file on your phone to install it. (Allow "Install from Unknown Sources" if asked).
+1. Turn ON Bluetooth and Location on your mobile phone.
+1. Power ON your ESP32 RC Car.
+1. Open the installed App and connect to **"ESP32_BLE_Car"**.
+1. Use the steering wheel and gas pedal on the screen to control your car!
+
+---
+
+## PROJECT CREDITS
+
+Developed and maintained by SMDPicker (https://smdpicker.com)
+Free for educational and learning purposes!
 
 ---
 
